@@ -5,6 +5,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+/**/
+.postList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.currentPost {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #151B26;
+    margin: 1em 0;
+    padding: 0;
+}
 
 .color-white {
     color: #E8EBF0;
@@ -2127,7 +2152,7 @@ select{
     cursor: pointer;
     height: 48px;
     width: 56px;
-    background-image: url("../svg/icon-search.svg");
+    background-image: url("../img/svg/icon-search.svg");
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-transform: translate3d(-6px, 0, 0);

@@ -1,7 +1,8 @@
-import Header from "../components/header";
+import Header from "../components/header/HeaderComponent";
+import Footer from "../components/footer/FooterComponent";
+import {Link} from "react-router-dom";
 
 export default function Posts() {
-
     const posts = [
         {
             "id": "1",
@@ -40,13 +41,19 @@ export default function Posts() {
             <Header/>
             <div className="postList">
                 {posts.map((post) => (
-                    <div className="post" key={post.id}>
-                        <h3>{post.title}</h3>
-                        <strong>{post.author}</strong>
-                        <p>{post.content}</p>
-                    </div>
+                    <>
+                        <div className="post" key={post.id}>
+                            <h3>{post.title}</h3>
+                            <span>{post.author}</span>
+                            <p>{post.content}</p>
+                            <br/>
+                            <Link to={`/post/${post.id}`} className="btn">Ler</Link>
+                        </div>
+                        <hr/>
+                    </>
                 ))}
             </div>
+            <Footer/>
         </>
     )
 }

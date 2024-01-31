@@ -1,11 +1,8 @@
-///Components
-import Hero from "./hero";
-import Banner from "./banner";
-import Card from "./card";
-import Main from "./main";
-
-/// Figuras
-import star from "../../svg/icon-star.svg";
+import Hero from "./hero/HomeHeroComponent";
+import Banner from "./banner/HomeBannerComponent";
+import Card from "./card/HomeCardComponent";
+import Main from "./main/HomeMainComponent";
+import star from "../../../src/assets/img/svg/icon-star.svg";
 
 const home = () => {
   return (
