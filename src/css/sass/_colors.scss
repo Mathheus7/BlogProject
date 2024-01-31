@@ -52,7 +52,7 @@ $yellow-light: #ffd76b;
 
 .color-gradient{
     background: linear-gradient(224.78deg, #5390E3 8.12%, #1357B3 92.21%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
