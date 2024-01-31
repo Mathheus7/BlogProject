@@ -6,23 +6,33 @@ const header = () => {
       <header className="py-1 px-2">
         <nav>
           <div className="logo">
-            <a href="1">
+            <a href="#">
               <img src={Logo} alt="" />
             </a>
           </div>
           <ul className="menu">
             <li>
-              <a href="1" className="p-1">
+              <a href={"/"} className="p-1">
+                Início
+              </a>
+            </li>
+            <li>
+              <a href={"/posts"} className="p-1">
+                Posts
+              </a>
+            </li>
+            <li>
+              <a href={"#"} className="p-1">
                 Categorias
               </a>
             </li>
             <li>
-              <a href="1" className="p-1">
+              <a href="#" className="p-1">
                 Sobre
               </a>
             </li>
             <li>
-              <a href="1" className="p-1">
+              <a href="#" className="p-1">
                 Contato
               </a>
             </li>
@@ -37,12 +47,12 @@ const header = () => {
             </form>
           </div>
           <div className="cta-desktop ml-3">
-            <a href="1" className="btn">
+            <a href="#" className="btn">
               Login
             </a>
           </div>
           <div className="cta-mobile mr-1">
-            <a href="1" className="link">
+            <a href="#" className="link">
               Login
             </a>
           </div>
@@ -53,17 +63,17 @@ const header = () => {
         <div className="menu-mobile">
           <ul className="nav-mobile">
             <li>
-              <a href="1" className="link-menu-mobile">
+              <a href="#" className="link-menu-mobile">
                 Categorias
               </a>
             </li>
             <li>
-              <a href="1" className="link-menu-mobile">
+              <a href="#" className="link-menu-mobile">
                 Sobre
               </a>
             </li>
             <li>
-              <a href="1" className="link-menu-mobile">
+              <a href="#" className="link-menu-mobile">
                 Contato
               </a>
             </li>
